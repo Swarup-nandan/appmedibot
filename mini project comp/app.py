@@ -12,7 +12,7 @@ from datetime import datetime
 
 from flask import Flask, render_template, request, jsonify, session, g, redirect, url_for
 from dotenv import load_dotenv
-from groq import Groq
+from groq import Groq 
 
 # ================= ENV =================
 load_dotenv()
